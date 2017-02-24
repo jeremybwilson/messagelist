@@ -1,0 +1,35 @@
+<div class="row" ng-controller="MessagesCtrl">
+  <div class="medium-12 columns">
+    <h3>Add Message</h3>
+    <form ng-submit="addMessage()">
+      <div class="form-group">
+        <label>Message Title</label>
+        <input type="msgtitle" class="form-control" ng-model="msgtitle" placeholder="MessageTitle">
+      </div>
+      <div class="form-group">
+        <label>Message Body</label>
+        <input type="msgbody" class="form-control" ng-model="msgbody" placeholder="MessageBody">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  <div class="medium-12 columns">
+    <h3>Store Messages</h3>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Message Title</th>
+            <th>Message Body</th>
+            <th>&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="message in messages">
+            <td>{{message.msgtitle}}</td>
+            <td>{{message.msgbody}}</td>
+            <td><a class="btn btn-danger" ng-click="removeMessage(message)">Delete</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "compar",
+		"selected_items":
+		[
+			[
+				"compar",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package controll",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/messages/messages.html",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/messages/messages.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/index_foundation.html",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/index_contactlist.html",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/index.html",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/app.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/app_msg.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/bower.json",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/package.json",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/contacts/contacts_test.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/contacts/contacts.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/contacts/contacts.html",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/bower_components/angular-mocks/angular-mocks.js",
+		"/var/folders/t_/fy_s871d23nb3p2crzqh84qw0000gn/T/tmp0wh5w9/contacts/ contacts.js",
+		"/var/folders/t_/fy_s871d23nb3p2crzqh84qw0000gn/T/tmp0wh5w9/messages/ messages.js",
+		"/Users/jeremybwilson/Documents/Github/code/angularjsdemos/app/partials/customerOrders.html",
+		"/Users/jeremybwilson/Documents/Github/code/angularjsdemos/app/controllers/customersController.js",
+		"/Users/jeremybwilson/Documents/Github/code/contactlist/app/app.css",
+		"/Users/jeremybwilson/Documents/Github/code/angular1_5/UsingDirectivesWithDataBinding.html",
+		"/Users/jeremybwilson/Downloads/all-f6-templates/blog.html",
+		"/Users/jeremybwilson/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/jeremybwilson/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/jeremybwilson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jeremybwilson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jeremybwilson/Documents/Github/code/contactlist",
+			"/Users/jeremybwilson/Documents/Github/code/contactlist/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"webPosts",
+			"myApp",
+			"9",
+			"myApp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.summary-panel":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
