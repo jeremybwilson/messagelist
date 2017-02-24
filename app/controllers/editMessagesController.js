@@ -24,22 +24,28 @@ angular.module('myApp.messages', ['ngRoute'])
   $scope.messages = $firebaseArray(rootRef);
 
   $scope.addMessage = function(){
-    console.log('Adding messags...');
+    console.log('Adding message...');
 
     $scope.messages.$add({
       msgtitle: $scope.msgtitle,
-      msgbody: $scope.msgbody
+      msgbody: $scope.msgbody,
+      msgstatus: $scope.msgstatus
     }).then(function(rootRef){
       var id = rootRef.key();
-      console.log('Added Message ' +id);
+      console.log('Added message ' +id);
 
       $scope.msgtitle = '';
       $scope.msgbody = '';
+      $scope.msgstatus = '';
     });
   };
 
   $scope.removeMessage = function(message){
     $scope.messages.$remove(message)
+  }
+
+  $scope.editMessage = function(message){
+    $scope.messages.$edit(message)
   }
 
 }]);

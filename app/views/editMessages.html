@@ -6,6 +6,7 @@
           <tr>
             <th>Message Title</th>
             <th>Message Body</th>
+            <th>Read Status</th>
             <th>&nbsp;</th>
           </tr>
         </thead>
@@ -13,7 +14,11 @@
           <tr ng-repeat="message in messages">
             <td>{{message.msgtitle}}</td>
             <td>{{message.msgbody}}</td>
-            <td><a class="button" role="button" aria-label="submit form" ng-click="removeMessage(message)">Delete</a></td>
+            <th>{{message.msgstatus}}</th>
+            <td>
+              <a class="button" role="button" aria-label="submit form" ng-click="editMessage(message)">Edit</a>&nbsp;
+              <a class="button" role="button" aria-label="submit form" ng-click="removeMessage(message)">Delete</a>
+            </td>
           </tr>
         </tbody>
     </table>
