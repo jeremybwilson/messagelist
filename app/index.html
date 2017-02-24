@@ -18,33 +18,27 @@
 <body>
 
   <!-- Start Top Bar -->
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span>Toggle navigation</span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <a class="navbar-brand" href="#">Project name</a>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="/">Home</a></li>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">Developer Test Project - Jeremy Wilson</li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="left">
+        <li class="active"><a href="/#!/">Home</a></li>
+        <li class=""><a href="/#!/edit">Edit/Delete Messages</a></li>
       </ul>
-    </div>
-  </div>
+    </section><!--./top-bar-section -->
+  </nav>
   <!-- End Top Bar -->
 
-    <div class="container">
-      <div class="row" id="content">
-        <div class="medium-12 columns">
-          <div ng-view></div>
-        </div>
+  <section class="container">
+    <div class="row" id="content">
+      <div class="medium-12 columns">
+        <div ng-view></div>
       </div>
-    </div><!-- /.container -->
+    </div>
+  </section><!-- /.container -->
 
-  
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
   <script>
@@ -52,7 +46,7 @@
   </script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
@@ -68,8 +62,9 @@
   </script>
   <script src="bower_components/angularfire/dist/angularfire.js"></script>
 
-  <script src="app_msg.js"></script>
-  <script src="contacts/contacts.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers/addMessagesController.js"></script>
+  <script src="controllers/editMessagesController.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>

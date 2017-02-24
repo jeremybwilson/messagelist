@@ -12,8 +12,13 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 $routeProvider
   .when('/', 
   {
-    controller: 'MessagesCtrl',
-    templateUrl: '/messages/messages.html'
+    controller: 'AddMessagesCtrl',
+    templateUrl: '/views/addMessages.html'
+  })
+  .when('/edit', 
+  {
+    controller: 'EditMessagesCtrl',
+    templateUrl: '/views/editMessages.html'
   })
   //Define a route that has a route parameter in it (:customerID)
   .otherwise({redirectTo: '/'});

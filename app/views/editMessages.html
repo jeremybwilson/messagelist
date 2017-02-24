@@ -1,0 +1,21 @@
+<div class="row" ng-controller="EditMessagesCtrl">
+  <div class="medium-12 columns">
+    <h3>Stored Messages</h3>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Message Title</th>
+            <th>Message Body</th>
+            <th>&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="message in messages">
+            <td>{{message.msgtitle}}</td>
+            <td>{{message.msgbody}}</td>
+            <td><a class="button" role="button" aria-label="submit form" ng-click="removeMessage(message)">Delete</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</div>

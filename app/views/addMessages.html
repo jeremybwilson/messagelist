@@ -1,0 +1,20 @@
+<div class="row" ng-controller="AddMessagesCtrl">
+  <div class="medium-12 columns">
+    <h3>Add Message</h3>
+    <div class="row">
+      <form ng-submit="addMessage()">
+        <div class="large-12 columns">
+          <label>Message Title
+            <input type="text" ng-model="msgtitle" placeholder="Message Title">
+          </label>
+        </div>
+        <div class="large-12 columns">
+          <label>Message Body
+            <textarea type="text" ng-model="msgbody" placeholder="Message Body"></textarea>
+          </label>
+        </div><br />
+        <button type="submit" class="button" style="margin-left: 15px;">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
